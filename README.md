@@ -2,8 +2,8 @@
 
 This is another of an existing project of mine, that I thought would be useful for other people.
 
-Working in the industry, you need to work on complex Deep Neural Networks projects and a script with all your training code just doesn't cut it. Many people use your code, so it needs to reusable, efficient, readable and scalable.
-That is why I introduced (for myself, my colleagues and hopefully others if they find it useful) a template for Pytorch projects. I mostly work with Convolutional Neural Networks so this project is catered toward them.
+Working in the industry, you need to work on complex Deep Neural Networks (DNNs) projects and a script with all your training code just doesn't cut it. Many people use your code, so it needs to reusable, efficient, readable and scalable.
+That is why I introduced (for myself, my colleagues and hopefully others if they find it useful) a template for Pytorch projects. I mostly work with Convolutional Neural Networks (CNNs) so this project is catered toward them.
 
 Python 3.7
 Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1.4 yet)
