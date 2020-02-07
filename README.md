@@ -6,6 +6,7 @@ Working in the industry, you need to work on complex Deep Neural Networks (DNNs)
 That is why I introduced (for myself, my colleagues and hopefully others if they find it useful) a template for Pytorch projects. I mostly work with Convolutional Neural Networks (CNNs) so this project is catered toward them.
 
 Python 3.7
+
 Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1.4 yet)
 
 ```
