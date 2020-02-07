@@ -1,0 +1,32 @@
+#
+#-------------- TRAINING ------------
+
+[dataset]
+root_dir = '/path/to/data'
+
+[data_loader]
+batch_size = 4
+random_seed=39248  # use for reproducibility
+valid_size = 0.15
+test_size = 0.15
+
+[transforms]
+    [transforms.0]
+    transform_type = "Resize"
+    params = {output_size = [224,224]}
+    [transforms.1]
+    transform_type = "NormalizeImage"
+    params = {mean = [128, 128, 128], stddev = [128, 128, 128]}
+    params = {}
+
+[loss]
+loss_type = 'CrossEntropyLoss'
+
+[model]
+
+[trainer]
+model_output_path='/path/to/model/'
+lr=1e-4
+weight_decay = 0
+num_epochs=20
+
