@@ -8,6 +8,7 @@ That is why I introduced (for myself, my colleagues and hopefully others if they
 Python 3.7
 Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1.4 yet)
 
+```
 +-- config/
 |   +-- train.toml
 |   +-- evaluate.toml
@@ -34,7 +35,7 @@ Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1
 |   +-- train.py
 +-- run.py
 +-- evaluate.py
-
+```
 
 # Models
 
