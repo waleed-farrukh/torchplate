@@ -7,7 +7,7 @@ That is why I introduced (for myself, my colleagues and hopefully others if they
 
 Python 3.7
 
-Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1.4 yet)
+Torch 1.2 (last trained. I now use 1.4 but this repository has not been tested on 1.4 yet)
 
 ```
 +-- config/
@@ -44,7 +44,7 @@ Torch 1.2 (last trained. I now use 1.4 but this project has not been tested on 1
 
 This project uses toml based configuration files for defining parameters for the training pipeline.
 
-!! NOTE !! This project is not supposed to run as it is. It is supposed to be template to base your project on but with as little changes as necassary.
+!! NOTE !! This project is not supposed to run as it is. It is supposed to be a template to base your projects on but with as little changes as necassary.
 
 # To Train
 ```
