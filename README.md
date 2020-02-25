@@ -15,13 +15,13 @@ Torch 1.2 (last trained. I now use 1.4 but this repository has not been tested o
 |   +-- evaluate.toml
 +-- your_cnn_project
 |   +-- dataset/
-|   |   +-- your_dataset_1.py
+|   |   +-- dataset_1.py
 |   +-- data_loader
 |   |   +-- data_loader.py
 |   +-- models
-|   |   +-- your_basic_model.py
-|   |   +-- your_super_fancy_model.py
-|   |   +-- your_pruned_model.py
+|   |   +-- model_1.py
+|   |   +-- model_2.py
+|   |   +-- pruned_model_1.py
 |   +-- loss
 |   |   +-- loss_functions.py
 |   +-- trainer
@@ -30,7 +30,7 @@ Torch 1.2 (last trained. I now use 1.4 but this repository has not been tested o
 |   +-- evaluate
 |   |   +-- evaluate_function.py
 |   +-- transforms
-|   |   +-- your_own_image_transforms.py
+|   |   +-- image_transforms.py
 |   +-- utils
 |   |   +-- utils.py
 |   +-- train.py
@@ -44,7 +44,7 @@ Torch 1.2 (last trained. I now use 1.4 but this repository has not been tested o
 
 This project uses toml based configuration files for defining parameters for the training pipeline.
 
-!! NOTE !! This project is not supposed to run as it is. It is supposed to be a template to base your projects on but with as little changes as necassary.
+!! NOTE !! This project is not supposed to run as it is. It is a template to base your projects on but with as little changes as necassary.
 
 # To Train
 ```
